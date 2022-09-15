@@ -1,0 +1,47 @@
+{
+  "name": "@nekobato/nn-kiai-button",
+  "version": "1.0.1",
+  "description": "Damage gauge",
+  "type": "module",
+  "types": "nn-kiai-button.d.ts",
+  "main": "nn-kiai-button.js",
+  "module": "nn-kiai-button.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc && rollup -c",
+    "build:watch": "tsc --watch",
+    "serve": "wds --node-resolve --watch",
+    "dev": "npm run build:watch & npm run serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nekobato/nn-kiai-button.git"
+  },
+  "keywords": [
+    "web component",
+    "range",
+    "gauge"
+  ],
+  "author": "nekobato <nekobato@gmail.com> (https://nekobato.net/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nekobato/nn-kiai-button/issues"
+  },
+  "homepage": "https://github.com/nekobato/nn-kiai-button#readme",
+  "dependencies": {
+    "@lit-labs/react": "^1.0.8",
+    "lit": "^2.3.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^14.1.0",
+    "@rollup/plugin-replace": "^4.0.0",
+    "@web/dev-server": "^0.1.34",
+    "rollup": "^2.79.0",
+    "rollup-plugin-summary": "^1.4.3",
+    "rollup-plugin-terser": "^7.0.2",
+    "typescript": "^4.8.3"
+  },
+  "directories": {
+    "example": "example"
+  }
+}
