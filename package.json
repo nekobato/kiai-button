@@ -11,7 +11,8 @@
     "build": "tsc && rollup -c",
     "build:watch": "tsc --watch",
     "serve": "wds --node-resolve --watch",
-    "dev": "npm run build:watch & npm run serve"
+    "dev": "npm run build:watch & npm run serve",
+    "npm-publish": "npm run build && npm publish --access=public"
   },
   "repository": {
     "type": "git",
