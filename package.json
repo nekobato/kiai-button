@@ -1,7 +1,7 @@
 {
   "name": "@nekobato/nn-kiai-button",
-  "version": "1.0.1",
-  "description": "Damage gauge",
+  "version": "0.0.1",
+  "description": "A button needs kiai (long tap).",
   "type": "module",
   "types": "nn-kiai-button.d.ts",
   "main": "nn-kiai-button.js",
