@@ -12,14 +12,29 @@
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
     <link rel="stylesheet" href="style.css" />
     <script type="text/javascript" src="script.js" defer></script>
+    <style>
+      html {
+        min-height: 100%;
+      }
+      body {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      h1 {
+        margin: 0 auto auto;
+      }
+      nn-kiai-button {
+        box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.5);
+      }
+    </style>
   </head>
   <body>
     <h1>nn-kiai-button</h1>
-    <nn-kiai-button hp="100" step="5" style="margin-top: 48px">
-      <img
-        src="https://dummyimage.com/120x120/000/fff&text=Click+me"
-        alt="click me"
-      />
+    <nn-kiai-button color="#ffffff" duration="400" style="margin-top: 48px">
+      Press
     </nn-kiai-button>
   </body>
 </html>
